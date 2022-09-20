@@ -1,7 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Задайте размер массива m :");
+﻿// Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+Console.WriteLine("Задайте количество сторок m :");
 int sizeM = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Задайте размер массива n :");
+Console.WriteLine("Задайте количество столбцов n :");
 int sizeN = Convert.ToInt32(Console.ReadLine());
 double[,] array = new double[sizeM, sizeN];
 
