@@ -1,9 +1,9 @@
 ﻿//  Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
-Console.WriteLine("Введите позицию элемента в стороке m :");
+Console.WriteLine("Введите позицию элемента в столбце m :");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите позицию элемента в столбце n :");
+Console.WriteLine("Введите позицию элемента в строке n :");
 int n = Convert.ToInt32(Console.ReadLine());
-double[,] array = new double[15, 15];
+double[,] array = new double[10, 10];
 
 ArrayRandomNumbers(array);// Заполнение массива числами.
 FindAnArrayElement(array, n, m);// Нахождение элемента по позиции в массиве.
