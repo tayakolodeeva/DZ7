@@ -22,6 +22,7 @@ void ArrayRandomNumbers(int[,] array)
 
 void PrintArray(int[,] array)
 {
+    Console.WriteLine("Массив заполненный случайными целыми числами:");
     for (int i = 0; i < array.GetLength(0); i++)
     {
         Console.Write("[ ");
@@ -36,6 +37,7 @@ void PrintArray(int[,] array)
 
 void ArithmeticMean(int[,] array, int sizeM) 
 {
+    Console.WriteLine("Cреднее арифметическое элементов в каждом столбце");
     for (int j = 0; j < array.GetLength(1); j++)
     {
         double artihmetic = 0;
