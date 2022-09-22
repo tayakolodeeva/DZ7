@@ -21,6 +21,7 @@ void ArrayRandomNumbers(double[,] array)
 
 void PrintArray(double[,] array)
 {
+    Console.WriteLine("Массив заполненный случайными вещественными числами:");
     for (int i = 0; i < array.GetLength(0); i++)
     {
         Console.Write("[ ");
